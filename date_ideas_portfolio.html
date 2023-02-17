@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Weekend Outings</title>
+    <link rel="stylesheet" href="HomePage.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      <style type="text/css">
+        * {
+          box-sizing: border-box;
+        }
+        body{
+          padding: 30px 9%;
+          font-size: 18px;
+          background-color: aliceblue;
+        }
+        /* #column-container {
+          padding: 20px 0;
+          display: grid;
+          grid-template-columns: auto auto auto;
+          gap: 20px;
+        } */
+        .card {
+          background: white;
+          padding: 12px;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 12px 0 rgba(0, 0, 0, 0.19);
+        }
+        @media only screen and (max-width: 1024px) {
+          #column {
+            grid-template-columns: auto auto auto;
+            }
+          }
+        @media only screen and (max-width: 768px) {
+            #column {
+              grid-template-columns: auto auto;
+            }
+          }
+        @media only screen and (max-width: 500px) {
+          #column {
+            padding: 20px 5%;
+            grid-template-columns: auto;
+          }
+        }
+        section{
+          width: 30%;
+        }
+        img{
+          width: 100%;
+          border-radius: 5px;
+        }
+        article{
+          padding: 10px;
+          margin: auto;
+          /* background: white; */
+          /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 12px 0 rgba(0, 0, 0, 0.19); */
+        }
+        main{
+          display: flex;
+          flex-flow: row wrap;
+          background-color: aliceblue;
+          padding: 30px 0;
+          justify-content: space-around;
+        }
+        figure{
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 12px 0 rgba(0, 0, 0, 0.19);
+        }
+      </style>
+  </head>
+  <body>
+    <h1>Weekend Outing Ideas</h1>
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="HomePagev4.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="parks_portfolio.html">Parks Across Baltimore</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="date_ideas_portfolio.html">Weekend Outings</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="outside_bmore.html">Outside the City</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      </nav>
+      <main>
+
+        <section id=column-container>
+          <article class="column">
+            <h2>Explore a new neighborhood</h2>
+            <p>On Saturdays, check out the Victorian architecture of the Painted Ladies (pictured) in Abell and enjoy a breakfast biscuit from Blacksauce Kitchen at the 32nd St Farmers Market. If you're lucky, <a href="https://bookthing.org/" target="_blank">The Book Thing</a> will be open for you to browse before heading to Peabody Heights for happy hour.
+            </p>
+          </article>
+          <figure>
+              <img src="../ProjectPicts/PaintedLadies.jpg" alt="Painted Ladies in Abell" width="300">
+          </figure>
+          <br>
+          <article class="column">
+            <h2>Walk around Inner Harbor</h2>
+            <p>When the weather's nice, follow the walking path around Inner Harbor. Inner Harbor itself can get congested with tourists, but if you start the path in Fed Hill (along Key Highway), it's nice to see the water from different angles and to walk towards the National Aquarium.
+            </p>
+          </article>
+          <figure>
+              <img src="../ProjectPicts/InnerHarbor3.jpg" alt="Inner Harbor at sunrise" width="300">
+          </figure>
+        </section>
+        <section id=column-container>
+          <article class="column">
+            <h2>Visit Mr. Trash Wheel</h2>
+            <p>If you follow the walking path around Inner Harbor, you'll eventually pass <a href="https://www.mrtrashwheel.com/meet-the-trash-wheels/" target="_blank">Mr. Trash Wheel</a> (pictured) — Baltimore's solar and hydro-powered trash collector</a>.
+            </p>
+          </article>
+          <figure>
+              <img src="../ProjectPicts/TrashWheel1.jpg" alt="Mr. Trash Wheel" width="300">
+          </figure>
+          <br>
+          <article class="column">
+            <h2>Watch the Orioles play at Camden Yards</h2>
+            <p>The Orioles' track record speaks for itself,  but Camden Yards is a beautiful historic baseball stadium. Unlike stadiums in other cities, Camden Yards' ticket prices remain relatively low — and I'm not sure you'll find crab mac n cheese hot dogs anywhere else. </p>
+          </article>
+          <figure>
+              <img src="../ProjectPicts/CamdenYards1.jpg" alt="Camden Yards" width="300">
+          </figure>
+        </section>
+        <section id=column-container>
+          <article class="column">
+            <h2>Enjoy the food scene</h2>
+            <p>Baltimore ranked among Yelp's top 10 cities for food lovers in 2019. From Ekiben bao buns to Diablo Donuts (pictured), there are tons of delicious cafes, restaurants and pop-up stands to explore. Water for Chocolate and Clavel are among my favorites.
+            </p>
+          </article>
+          <figure>
+              <img src="../ProjectPicts/Donuts.jpeg" alt="Assorted Diablo Donuts" width="300">
+          </figure>
+          <br>
+          <article class="column">
+            <h2>Picnic in a park</h2>
+            <p>Located only a few blocks from the water near Fells Point, Canton and Highlandtown, Patterson Park has lots of places to picnic. In the spring, the park's makeshift mud pit is a fun place to watch Baltimore's annual <a href="https://www.kineticbaltimore.com/" target="_blank">Kinetic Sculpture Race</a>. Check out more Baltimore parks to explore <a href="parks_portfolio.html">here</a>.
+            </p>
+          </article>
+          <figure>
+              <img src="../ProjectPicts/Park10.jpeg" alt="Patterson Park Pagoda" width="300">
+          </figure>
+        </section>
+      </main>
+  </body>
+    <footer>&copy;2022 KATHRYN</footer>
+</html>

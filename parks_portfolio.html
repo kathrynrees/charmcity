@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Baltimore Parks</title>
+    <link rel="stylesheet" href="HomePage.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      <style type="text/css">
+        * {
+          box-sizing: border-box;
+        }
+        body{
+          font-size: 18px;
+          padding: 30px 9%;
+          background-color: aliceblue;
+        }
+        #card-container {
+          padding: 20px 0;
+          display: grid;
+          grid-template-columns: auto auto auto;
+          gap: 20px;
+        }
+        .card {
+          background: white;
+          padding: 12px;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 12px 0 rgba(0, 0, 0, 0.19);
+        }
+
+        img {
+          width: 100%;
+        }
+        @media only screen and (max-width: 1024px) {
+          #card-container {
+            grid-template-columns: auto auto auto;
+            }
+          }
+        @media only screen and (max-width: 768px) {
+            #card-container {
+              grid-template-columns: auto auto;
+            }
+          }
+        @media only screen and (max-width: 500px) {
+          #card-container {
+            padding: 20px 5%;
+            grid-template-columns: auto;
+          }
+        }
+      </style>
+  </head>
+  <body>
+    <h1>Parks Across Baltimore</h1>
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="HomePagev4.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="parks_portfolio.html">Parks Across Baltimore</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="date_ideas_portfolio.html">Weekend Outings</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="outside_bmore.html">Outside the City</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      </nav>
+    <section id = "card-container">
+      <div class="card">
+        <img src="../ProjectPicts/Park2.jpg" alt="Wyman Park in autumn" width="300">
+        <h3>Wyman Park</h3>
+        <p>Stony Run creek and its walking trail run through this dog-friendly park. The park borders with Johns Hopkins University's undergrad campus as well as the neighborhoods of Hampden, Keswick and Remington. Among the shops and restaurants to explore nearby, check out Greedy Reads and Golden West Cafe.</p>
+      </div>
+      <div class="card">
+        <img src="../ProjectPicts/Park11.jpeg" alt="Druid Hill Park with blue sky" width="300">
+        <h3>Druid Hill Park</h3>
+        <p>If you love plants, check out the Rawlings Conservatory (pictured) and its orchid room — or the weekly farmers' market. Walk around Druid Lake or play disc golf through the park's public course. Within the park, the Maryland Zoo is great for young kids. Walking distance from the park, refuel at Dovecote Cafe.</p>
+      </div>
+      <div class="card">
+        <img src="../ProjectPicts/Park8.jpg" alt="Tulips in Sherwood Gardens" width="300">
+        <h3>Sherwood Gardens</h3>
+        <p>Every year, this park plants 50,000+ tulip bulbs. During peak bloom in late April/early May, you'll find lots of visitors picnicking or taking photos here. The gardens are located in Guilford, a neighborhood in northern Baltimore. This private park is open to the public so there are no tickets or admission fees required.</p>
+      </div>
+      <div class="card">
+        <img src="../ProjectPicts/Park6.jpg" alt="Patapsco River at sunset" width="300">
+        <h3>Middle Branch Park</h3>
+        <p>Located in Cherry Hill, South Baltimore, Middle Branch Park looks onto the Patapsco River. In the spring, there's usually a cherry blossom celebration when the trees are in bloom. In the summer, you can rent canoes and kayaks or sign-up for a Full Moon Paddle through <a href="https://secure.rec1.com/MD/baltimore-md/catalog" target="_blank">Baltimore Parks & Rec</a> (select "Outdoor Activities" to make reservations). For nearby food with a view, Nick's Fish House looks onto the water (though I recommend it for the view more than the food).</p>
+      </div>
+      <div class="card">
+        <img src="../ProjectPicts/Park4.jpg" alt="Snowy Riverside Park" width="300">
+        <h3>Riverside Park</h3>
+        <p>Located in Federal Hill, South Baltimore, this dog-friendly park is walking distance from Fed Hill's restaurants and bars. Pick up lunch at Cross Street Market — one of Baltimore's six remaining historic public markets — and head to Riverside Park for a picnic. Afterwards, check out The Brewer's Cask for happy hour or keep walking to Fed Hill Park for a view of Inner Harbor. If you head to Fed Hill, walking around the American Visionary Art Museum (at least the outside of it) is a must.</p>
+      </div>
+      <div class="card">
+        <img src="../ProjectPicts/Park5.jpg" alt="Farring-Baybrook Park at sunset" width="300">
+        <h3>Farring-Baybrook Park</h3>
+        <p>Located in Brooklyn, South Baltimore, Baybrook Park has tons of greenspace that is home to wild deer and many (unofficial) soccer fields. Brooklyn straddles the border of Baltimore City and Anne Arundel County and the City doesn't make it easy for residents or visitors to get here via public transportation, but having spent so much time at this beautiful park, I had to include it among my favorites. It also has a great view of the city skyline.</p>
+      </div>
+    </section>
+  </body>
+    <footer>&copy;2022 KATHRYN</footer>
+</html>

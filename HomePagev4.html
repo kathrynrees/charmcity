@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="HomePage.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <style type=text/css>
+    .card-container{
+      padding: 10% 25%;
+      font-size: 18px;
+      background-color: aliceblue;
+    }
+    h3 {
+      text-align: center;
+    }
+    h2{
+      text-align: center;
+      font-size: 50px;
+    }
+    p{
+      text-align: center;
+    }
+    h1{
+      font-size: 7em;
+    }
+    #Section2 {
+      padding: 0 5%;
+    }
+      #Welcome{
+        background-image: url("../ProjectPicts/Mural.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center center;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 12px 0 rgba(0, 0, 0, 0.19);
+      }
+      #flex-box1{
+        background: white;
+        display: flex;
+        color: black;
+        padding: 20% 0;
+        justify-content: space-evenly;
+        flex-flow: row wrap;
+      }
+      #Welcome{
+        text-align: center;
+        color: aliceblue;
+        padding: 10% 10%;
+        text-shadow: 2px 2px 2px gray;
+        height: 700px;
+      }
+      #card-container {
+        padding: 5% 5%;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 20px;
+        justify-content: center;
+      }
+      .card {
+        background: white;
+        padding: 12px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 12px 0 rgba(0, 0, 0, 0.19);
+      }
+      @media only screen and (max-width: 1080px) {
+        #card-container {
+          grid-template-columns: auto auto auto;
+          }
+        }
+      @media only screen and (max-width: 1079px) {
+        #card-container {
+          padding: 20px 5%;
+          grid-template-columns: auto;
+        }
+      }
+      section#neighborhoods{
+        background-color: aliceblue;
+        padding: 40px 5%;
+      }
+      iframe{
+        width: 100%;
+        height: 750px;
+      }
+    </style>
+  </head>
+  <br>
+  <header>
+  </header>
+  <body>
+    <section id="Welcome">
+      <br>
+      <br>
+      <br>
+
+      <h1>Welcome to Charm City</h1>
+    </section>
+      <section id = "card-container">
+        <div class="card">
+          <a href="parks_portfolio.html">
+          <img src="../ProjectPicts/Park1.jpg" alt="Autumn park" width="300"></a>
+          <h3>Baltimore Parks</h3>
+          <p>Places to spend the day outdoors</p>
+        </div>
+        <div class="card">
+          <a href="date_ideas_portfolio.html">
+          <img src="../ProjectPicts/CamdenYards2.jpeg" alt="Autumn park" width="300"></a>
+          <h3>Weekend Outings</h3>
+          <p>Things to do, eat, and see</p>
+        </div>
+        <div class="card">
+          <a href="outside_bmore.html">
+          <img src="../ProjectPicts/DC2.jpg" alt="Autumn park" width="300"></a>
+          <h3>Outside the City</h3>
+          <p>Hikes and sights near Baltimore</p>
+        </div>
+    </section>
+    <section id=Section2>
+      <h3>About This Blog</h3>
+      <p>Welcome to my MVLA Web Design portfolio. Baltimore holds a special place in my heart so I wanted to create a list of my favorite places in Charm City to share with friends planning to visit Baltimore.</p>
+      <p>People call Baltimore "the city of neighborhoods" because it has more than 250 neighborhoods — each with its own distinct history and culture. Some Baltimore neighborhoods are large while others are only a few blocks wide. Throughout this blog, I've shared some ideas for neighborhoods to explore — and my favorite local parks, shops and restaurants within them (I'll also admit that having/lacking high quality photos did factor into some of my design decisions for this project). <br> <br>
+        The history of these neighborhoods is inextricably linked to Baltimore's history of racist housing policies and practices. Redlining, blockbusting and other racist policies have undoubtedly shaped the Baltimore we see today. Two books that unpack Baltimore's history, which I highly recommend, are: <a href="https://theblackbutterflyproject.com/" target="_blank">"The Black Butterfly"</a> by Dr. Lawrence Brown and <a href="https://www.anteropietila.com/not-in-my-neighborhood" target="_blank">"Not in My Neighborhood"</a> by Antero Pietila. <br> <br>Given the spectrum of sizes of Baltimore neighborhoods, neighborhood boundaries are rather subjective. Below is an interactive map of Baltimore neighborhoods that's geared towards future homeowners, but I've included it to give you a sense of the approximate neighborhood boundaries.</p>
+    </section>
+    <section id="neighborhoods">
+      <iframe src="https://livebaltimore.com/neighborhoods/" title="neighborhoods"></iframe>
+    </section>
+  </body>
+  <footer>&copy;2022 KATHRYN</footer>
+</html>
